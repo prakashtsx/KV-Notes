@@ -50,7 +50,7 @@ function App() {
       </div>
       <main className="flex"
         style={{
-          backgroundImage: `radial-gradient(circle at 0.5px 0.5px, rgba(0,0,0,0.2) 0.5px, transparent 0px)`,
+          backgroundImage: `radial-gradient(circle at 0.5px 0.5px, rgba(255,255,255,0.2) 0.5px, transparent 0px)`,
           backgroundSize: "8px 8px"
         }}
       >
@@ -62,7 +62,7 @@ function App() {
                 <CardTitle className="">{pdf.name}</CardTitle>
                 <CardDescription className="text-xs">{pdf.pages} pages</CardDescription>
               </CardHeader>
-              <Button className="cursor-pointer" onClick={() => handleView(pdf.url)}>
+              <Button className="cursor-pointer" onClick={() => handleView(pdf.url)} variant="secondary">
                 <DownloadIcon />
                 <p className="hidden md:block">Download</p>
               </Button>
