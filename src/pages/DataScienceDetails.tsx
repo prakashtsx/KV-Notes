@@ -23,7 +23,7 @@ const NOTES: Note[] = [
     id: "1",
     title: "Introduction to Data Science",
     unit: "Unit 1",
-    uploadedDate: "2024-01-15",
+    uploadedDate: "2026-01-14",
     downloadUrl:
       "https://drive.google.com/file/d/1rYgwocYsA2fYZgU2vGriu-5rvb6McT9U/view?usp=drive_link",
   },
@@ -31,7 +31,7 @@ const NOTES: Note[] = [
     id: "2",
     title: "Data Collection and Preprocessing",
     unit: "Unit 2",
-    uploadedDate: "2024-01-20",
+    uploadedDate: "2025-01-14",
     downloadUrl:
       "https://drive.google.com/file/d/1HZZzXnIUGRpKIlUMcl_VlvvQOddRLGny/view?usp=drive_link",
   },
